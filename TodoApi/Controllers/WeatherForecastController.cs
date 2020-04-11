@@ -20,7 +20,7 @@ namespace TodoApi.Controllers
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
-            _logger = loggers;
+            _logger = logger;
         }
 
         [HttpGet]
